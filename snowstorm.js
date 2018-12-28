@@ -30,7 +30,7 @@ function init() {
       snowflake.draw();
     })
     for(var i = 0; i < snowflakes.length; i++){
-      if(snowflakes[i].y>$("body").height()){
+      if(snowflakes[i].y>$("body").height()-10){
         snowflakes.splice(i, 1)
       }
     }
