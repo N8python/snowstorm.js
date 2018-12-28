@@ -23,9 +23,6 @@ function spawnSnowflakes(){
   }
 }
 function init() {
-  $(function() {
-    $('.same').matchHeight();
-  });
   var snowstorm = setInterval(() => {
     spawnSnowflakes();
     $('svg').remove();
